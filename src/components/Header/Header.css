@@ -1,0 +1,81 @@
+.header-container {
+  background-color: #333;
+  color: white;
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 98vw;
+}
+
+.header-container .image {
+  display: flex;
+  align-items: center;
+}
+
+.header-container .image img {
+  margin-right: 0.5rem;
+  height: 2rem;
+}
+
+.header-container .image h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header-container ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.header-container ul li {
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+
+.header-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-container h1 {
+  font-size: 1rem;
+}
+
+.header-container button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+}
+
+.header-container button:hover {
+  background-color: blue;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .header-container .image {
+    margin-bottom: 1rem;
+  }
+
+  .header-container .image h2 {
+    font-size: 1.2rem;
+  }
+
+  .header-container ul {
+    justify-content: center;
+  }
+
+  .header-container ul li {
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
