@@ -1,7 +1,7 @@
 # loginandcartfunctionatity
 To run this Program 
 ->first fork it from my repo by git clone 
-->npm install -D parcel (to install node modules)
+->npm install -D parcel                    (to install node modules)
 ->npm start (or) npm run start
 
 Speciality:
